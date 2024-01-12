@@ -1,45 +1,114 @@
+html { 
+    background: url(https://wallpapers.com/images/high/genshin-impact-background-c8vez96c9ugk08ek.webp) no-repeat center fixed; 
+    background-size: cover;
+  }
+
+body{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    width: 40%;
+    margin: auto; 
+    padding: 0px;  
+    background-color: rgb(0, 187, 255);
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(118, 192, 65);
+}
+
 .main-container{
     display: flex;
-    flex-direction: column;
-    background-color: #2196F3;
-}
-.main-container > div {
-    background-color: rgba(0, 255, 217, 0.8);
     text-align: center;
-    margin: 10px;   
-    padding: 10px;
+    margin: auto;
+    flex-direction: column;
+    background-color: #717070;
+    width: 40%;
 }
+
+.main-container > div {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    text-align: center;
+    margin: 0px;   
+    padding: 0px;
+}
+
 
 .tier-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px;
     font-size: 10px; 
-    margin: 10px;
 }
 
 .tier-container > div{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     padding: 10px; 
-    margin: 10px;
+    margin: 1px;
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 .tier-container > .tier-level{
     text-align: center;
-    font-size: x;
-    word-wrap: break-word;
+    font-size: 20px;
     font-weight: bold;
+    color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
-    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
 }
 
 
 .card > img{
-    width: 100px;
+    width: 120px;
 }
 
+.least img:nth-child(1){
+    border: dotted;
+
+}
+
+.least{
+    display: grid;
+    padding: 10px;
+    background-color: purple;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    gap: 0px;
+    margin: auto;
+    width: 70%;
+    }
+  
+.least div{
+    background-color: #f1f1f1;
+    margin: 0px;
+    padding: 10px;
+    width: 50%;
+  }
+
+.least img{
+    width: 60%;
+}
